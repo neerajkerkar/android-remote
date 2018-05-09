@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.neeraj.powerpointcontroller.BluetoothDeviceFinder"
+    tools:showIn="@layout/activity_bluetooth_device_finder"
+    android:background="@color/appBackground">
+
+    <TextView
+        android:id="@+id/availableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/available_devices"
+        android:textSize="@dimen/available_devices_size"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/scanning"
+        android:layout_above="@+id/device_list"
+        android:layout_toRightOf="@+id/availableText"
+        android:layout_toEndOf="@+id/availableText"
+        android:layout_marginLeft="10dp">
+
+        <ProgressBar
+            android:id="@+id/loading_circle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:indeterminate="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scanning"
+            android:textColor="#BBBBBB"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/loading_circle"
+            android:layout_alignBottom="@+id/loading_circle"
+            android:layout_marginLeft="5dp"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_below="@+id/availableText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/device_list"
+        android:layout_above="@+id/scanButton" />
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan"
+        android:onClick="scanButtonClick"/>
+</RelativeLayout>

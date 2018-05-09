@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginBottom="0dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginRight="0dp"
+    tools:context="com.neeraj.powerpointcontroller.PPTController"
+    tools:showIn="@layout/activity_pptcontroller"
+    android:background="@color/appBackground">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_mouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mouse"
+            android:onClick="radioClicked"/>
+
+        <RadioButton
+            android:id="@+id/radio_presentation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="presentation"
+            android:onClick="radioClicked"/>
+
+        <RadioButton
+            android:id="@+id/radio_keyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="keyboard"
+            android:onClick="radioClicked" />
+
+    </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/sync_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frag_container"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/connectCircle"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:indeterminate="true" />
+
+        <TextView
+            android:id="@+id/connectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Connecting" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

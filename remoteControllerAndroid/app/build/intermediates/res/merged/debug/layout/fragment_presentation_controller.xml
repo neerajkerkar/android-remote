@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.neeraj.powerpointcontroller.PresentationController">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/slideshow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="slide show"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/exit_slideshow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="End Show"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/slide_num"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:hint="Slide#"
+            android:layout_weight="1"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/go_to_slide"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Go to slide" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/slideNumberText"
+        android:gravity="center"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hsl">
+
+        <LinearLayout
+            android:id="@+id/image_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:text="Slide Note:"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:background="@drawable/touchpadback"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No notes"
+            android:textSize="16sp"
+            android:layout_margin="5dp"/>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="previous"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/sync"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Sync"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</LinearLayout>
+

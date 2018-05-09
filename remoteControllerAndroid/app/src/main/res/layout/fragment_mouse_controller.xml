@@ -1,0 +1,45 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    tools:context="com.neeraj.powerpointcontroller.MouseController">
+
+    <fragment
+        class="com.neeraj.powerpointcontroller.SendTextFragment"
+        android:id="@+id/text_frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"/>
+
+    <TextView
+        android:id="@+id/touchPad"
+        android:text="Touch pad"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:gravity="center"
+        android:background="@drawable/touchpadback"
+        android:layout_marginTop="@dimen/touch_pad_margin"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="@dimen/touch_pad_margin"
+        android:layout_marginRight="@dimen/touch_pad_margin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left"
+        android:id="@+id/leftMouse"
+        android:tag="@string/VK_LBUTTON"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right"
+        android:id="@+id/rightMouse"
+        android:tag="@string/VK_RBUTTON"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"/>
+
+</GridLayout>

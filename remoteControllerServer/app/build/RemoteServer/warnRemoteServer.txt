@@ -1,0 +1,71 @@
+missing module named org - imported by copy
+missing module named console - imported by pyreadline.console.ansi
+missing module named startup - imported by pyreadline.keysyms.common, pyreadline.keysyms.keysyms
+missing module named System - imported by pyreadline.console.ironpython_console, pyreadline.keysyms.ironpython_keysyms, pyreadline.rlmain
+missing module named _scproxy - imported by urllib, future.backports.urllib.request
+missing module named EasyDialogs - imported by getpass
+missing module named termios - imported by getpass
+missing module named pwd - imported by posixpath, getpass, distutils.util, distutils.archive_util, shutil, tarfile, CGIHTTPServer
+missing module named SOCKS - imported by ftplib
+missing module named rourl2path - imported by urllib
+missing module named IronPythonConsole - imported by pyreadline.console.ironpython_console
+missing module named clr - imported by pyreadline.console.ironpython_console, pyreadline.clipboard.ironpython_clipboard
+missing module named 'System.Windows' - imported by pyreadline.clipboard.ironpython_clipboard
+missing module named 'org.python' - imported by pickle, setuptools.sandbox, xml.sax
+missing module named fcntl - imported by tempfile, subprocess, bluetooth.bluez
+missing module named riscosenviron - imported by os
+missing module named riscospath - imported by os
+missing module named riscos - imported by os
+missing module named ce - imported by os
+missing module named _emx_link - imported by os
+missing module named os2 - imported by os
+missing module named posix - imported by os
+missing module named resource - imported by posix
+missing module named pyimod03_importers - imported by C:\Users\neeraj\Anaconda\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py
+missing module named _sysconfigdata - imported by distutils.sysconfig, sysconfig
+missing module named grp - imported by distutils.archive_util, shutil, tarfile
+missing module named 'packaging.specifiers' - imported by pkg_resources
+missing module named packaging - imported by pkg_resources
+missing module named 'importlib.machinery' - imported by pkg_resources, cffi.verifier
+missing module named 'urllib.parse' - imported by setuptools.compat, pkg_resources
+missing module named _imp - imported by pkg_resources
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions
+missing module named _xmlplus - imported by xml
+missing module named 'Carbon.File' - imported by plistlib
+missing module named 'Carbon.Files' - imported by plistlib
+missing module named Carbon - imported by plistlib
+missing module named vms_lib - imported by platform
+missing module named java - imported by platform
+missing module named MacOS - imported by platform
+missing module named macresource - imported by MacOS
+missing module named gestalt - imported by platform
+missing module named 'win32com.gen_py' - imported by win32com, C:\Users\neeraj\Anaconda\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py
+missing module named 'PySide.QtCore' - imported by PIL.ImageQt, C:\Users\neeraj\Anaconda\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_qt4plugins.py
+missing module named gtk - imported by pyperclip.clipboards, pyperclip
+missing module named 'bluetooth._bluetooth' - imported by bluetooth.bluez
+missing module named _bluetooth - imported by bluetooth.bluez
+missing module named _widcomm - imported by bluetooth.widcomm
+missing module named 'PyQt5.QtCore' - imported by PIL.ImageQt
+missing module named pathlib - imported by PIL.Image
+missing module named _imaging_gif - imported by PIL.GifImagePlugin
+missing module named setuptools_svn - imported by setuptools.command.egg_info
+missing module named wincertstore - imported by setuptools.ssl_support
+missing module named 'urllib.request' - imported by setuptools.compat
+missing module named 'urllib.error' - imported by setuptools.compat
+missing module named 'dbm.ndbm' - imported by future.moves.dbm.ndbm
+missing module named gdbm - imported by anydbm, future.moves.dbm.gnu
+missing module named 'dbm.gnu' - imported by future.moves.dbm.gnu
+missing module named 'dbm.dumb' - imported by future.moves.dbm.dumb
+missing module named bsddb3 - imported by bsddb
+missing module named _pybsddb - imported by bsddb, bsddb.db
+missing module named dbm - imported by future.standard_library, future.moves.dbm, whichdb, anydbm, future.moves.dbm.ndbm
+missing module named 'test.test_support' - imported by future.moves.test.support
+missing module named 'test.support' - imported by future.moves.test.support
+missing module named test - imported by future.standard_library
+missing module named reprlib.recursive_repr - imported by reprlib, future.backports.misc
+missing module named _thread.get_ident - imported by _thread, future.backports.misc
+missing module named _thread.allocate_lock - imported by _thread, cffi.lock
+missing module named _datetime - imported by future.backports.datetime
+missing module named _dummy_threading - imported by dummy_threading
+missing module named cffi._pycparser - imported by cffi, cffi.cparser
+missing module named testing - imported by cffi.recompiler

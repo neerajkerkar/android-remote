@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neeraj.powerpointcontroller"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.neeraj.powerpointcontroller.ConnectionSelector"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.neeraj.powerpointcontroller.BluetoothDeviceFinder"
+            android:configChanges="screenSize|orientation"
+            android:label="@string/title_activity_bluetooth_device_finder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.neeraj.powerpointcontroller.PPTController"
+            android:label="@string/title_activity_pptcontroller"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

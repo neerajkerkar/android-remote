@@ -1,0 +1,1025 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    tools:context="com.neeraj.powerpointcontroller.KeyboardController">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false">
+
+        <RelativeLayout
+            android:id="@+id/keyboard_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp">
+
+            <LinearLayout
+                android:id="@+id/row1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_size"
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true">
+
+                <Button
+                    android:id="@+id/key11"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="27"
+                    android:text="Esc"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key12"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="112"
+                    android:text="F1"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="40dp"/>
+
+                <Button
+                    android:id="@+id/key13"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="113"
+                    android:text="F2"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key14"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="114"
+                    android:text="F3"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key15"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="115"
+                    android:text="F4"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key16"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="116"
+                    android:text="F5"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="30dp"/>
+
+                <Button
+                    android:id="@+id/key17"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="117"
+                    android:text="F6"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key18"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="118"
+                    android:text="F7"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key19"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="119"
+                    android:text="F8"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key110"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="120"
+                    android:text="F9"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="30dp"/>
+
+                <Button
+                    android:id="@+id/key111"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="121"
+                    android:text="F10"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key112"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="122"
+                    android:text="F11"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key113"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="123"
+                    android:text="F12"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key114"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="44"
+                    android:text="Prt Scrn\nSys Rq"
+                    android:textSize="8dp"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/key115"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="145"
+                    android:text="Scroll\nLock"
+                    android:textSize="10dp"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/key116"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="19"
+                    android:text="Pause\nbreak"
+                    android:textSize="8dp"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_size"
+                android:orientation="horizontal"
+                android:layout_below="@+id/row1">
+
+                <Button
+                    android:id="@+id/key21"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="192"
+                    android:text="~\n`"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key22"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="49"
+                    android:text="!\n1"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key23"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="50"
+                    android:text="\@\n2"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key24"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="51"
+                    android:text="\#\n3"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key25"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="52"
+                    android:text="$\n4"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key26"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="53"
+                    android:text="%\n5"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key27"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="54"
+                    android:text="^\n6"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key28"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="55"
+                    android:text="&amp;\n7"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key29"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="56"
+                    android:text="*\n8"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key210"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="57"
+                    android:text="(\n9"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key211"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="48"
+                    android:text=")\n0"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key212"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="189"
+                    android:text="_\n-"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key213"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="187"
+                    android:text="+\n="
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key214"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:tag="8"
+                    android:text="backspace"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key215"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="45"
+                    android:text="Insert"
+                    android:textSize="10dp"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key216"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="36"
+                    android:text="Home"
+                    android:textSize="9dp"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key217"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="33"
+                    android:text="Page\nUp"
+                    android:textSize="9dp"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key218"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="144"
+                    android:text="Num\nLock"
+                    android:textSize="9dp"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key219"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="111"
+                    android:text="/"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key220"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="106"
+                    android:text="*"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key221"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="109"
+                    android:text="-"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row3"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_size"
+                android:layout_below="@+id/row2">
+
+                <Button
+                    android:id="@+id/key31"
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:tag="9"
+                    android:text="Tab"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key32"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="81"
+                    android:text="Q"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key33"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="87"
+                    android:text="W"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key34"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="69"
+                    android:text="E"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key35"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="82"
+                    android:text="R"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key36"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="84"
+                    android:text="T"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key37"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="89"
+                    android:text="Y"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key38"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="85"
+                    android:text="U"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key39"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="73"
+                    android:text="I"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key310"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="79"
+                    android:text="O"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key311"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="80"
+                    android:text="P"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key312"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="219"
+                    android:text="{\n["
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key313"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="221"
+                    android:text="}\n]"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key314"
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:tag="220"
+                    android:text="|\n\\"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key315"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="46"
+                    android:text="Delete"
+                    android:textSize="8dp"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key316"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="35"
+                    android:text="End"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key317"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="34"
+                    android:text="Page Down"
+                    android:textSize="9dp"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key318"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="103"
+                    android:text="7\nHome"
+                    android:textSize="9dp"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key319"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="104"
+                    android:text="8\n&#x2191;"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key320"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="105"
+                    android:text="9\nPg Up"
+                    android:textSize="9dp"
+                    android:textAllCaps="false" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row4"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_size"
+                android:orientation="horizontal"
+                android:layout_below="@+id/row3">
+
+                <Button
+                    android:id="@+id/key41"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:tag="20"
+                    android:text="Caps Lock"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key42"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="65"
+                    android:text="A"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key43"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="83"
+                    android:text="S"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key44"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="68"
+                    android:text="D"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key45"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="70"
+                    android:text="F"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key46"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="71"
+                    android:text="G"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key47"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="72"
+                    android:text="H"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key48"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="74"
+                    android:text="J"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key49"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="75"
+                    android:text="K"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key410"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="76"
+                    android:text="L"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key411"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="186"
+                    android:text=":\n;"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key412"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="222"
+                    android:text="&quot;\n'"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key413"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:tag="13"
+                    android:text="Enter"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key414"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="100"
+                    android:text="4\n&#x2190;"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="150dp"/>
+
+                <Button
+                    android:id="@+id/key415"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="101"
+                    android:text="5"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key416"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="102"
+                    android:text="6\n&#x2192;"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row5"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_size"
+                android:orientation="horizontal"
+                android:layout_below="@+id/row4">
+
+                <Button
+                    android:id="@+id/key51"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:tag="160"
+                    android:text="Shift"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key52"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="90"
+                    android:text="Z"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key53"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="88"
+                    android:text="X"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key54"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="67"
+                    android:text="C"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key55"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="86"
+                    android:text="V"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key56"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="66"
+                    android:text="B"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key57"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="78"
+                    android:text="N"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key58"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="77"
+                    android:text="M"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key59"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="188"
+                    android:text="&lt;\n,"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key510"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="190"
+                    android:text="&gt;\n."
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key511"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="191"
+                    android:text="\?\n/"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key512"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:tag="161"
+                    android:text="Shift"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key513"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="38"
+                    android:text="&#x2191;"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="50dp"/>
+
+                <Button
+                    android:id="@+id/key514"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="97"
+                    android:text="1\nEnd"
+                    android:textSize="9dp"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="50dp"/>
+
+                <Button
+                    android:id="@+id/key515"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="98"
+                    android:text="2\n&#x2193;"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key516"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="99"
+                    android:text="3\nPg Dn"
+                    android:textSize="9dp"
+                    android:textAllCaps="false" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row6"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_size"
+                android:layout_below="@+id/row5">
+
+                <Button
+                    android:id="@+id/key61"
+                    android:layout_width="@dimen/last_row_button_size"
+                    android:layout_height="match_parent"
+                    android:tag="162"
+                    android:text="Ctrl"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key62"
+                    android:layout_width="@dimen/last_row_button_size"
+                    android:layout_height="match_parent"
+                    android:tag="91"
+                    android:text="Win"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key63"
+                    android:layout_width="@dimen/last_row_button_size"
+                    android:layout_height="match_parent"
+                    android:tag="164"
+                    android:text="Alt"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key64"
+                    android:layout_width="295dp"
+                    android:layout_height="match_parent"
+                    android:tag="32"
+                    android:text="Space"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key65"
+                    android:layout_width="@dimen/last_row_button_size"
+                    android:layout_height="match_parent"
+                    android:tag="165"
+                    android:text="Alt"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key66"
+                    android:layout_width="@dimen/last_row_button_size"
+                    android:layout_height="match_parent"
+                    android:tag="92"
+                    android:text="Win"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key67"
+                    android:layout_width="@dimen/last_row_button_size"
+                    android:layout_height="match_parent"
+                    android:tag="93"
+                    android:text="App"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key68"
+                    android:layout_width="@dimen/last_row_button_size"
+                    android:layout_height="match_parent"
+                    android:tag="163"
+                    android:text="Ctrl"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key69"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="37"
+                    android:text="&#x2190;"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key610"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="40"
+                    android:text="&#x2193;"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key611"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="39"
+                    android:text="&#x2192;"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key612"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:tag="96"
+                    android:text="0\nInsert"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/key613"
+                    android:layout_width="@dimen/button_size"
+                    android:layout_height="match_parent"
+                    android:tag="110"
+                    android:text=".\nDel"
+                    android:textSize="@dimen/button_text_size"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/plus"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="100dp"
+                android:tag="107"
+                android:text="+"
+                android:textSize="@dimen/button_text_size"
+                android:textAllCaps="false"
+                android:layout_below="@+id/row2"
+                android:layout_toRightOf="@+id/row3"/>
+
+            <Button
+                android:id="@+id/num_enter"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="100dp"
+                android:tag="13"
+                android:text="Enter"
+                android:textSize="9dp"
+                android:textAllCaps="false"
+                android:layout_below="@+id/plus"
+                android:layout_toRightOf="@+id/row5"/>
+
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+</ScrollView>
