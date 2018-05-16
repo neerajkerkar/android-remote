@@ -13,3 +13,6 @@ Additional features:
 1. Send text: The text you type in the app is sent to the active textbox on your pc.
 
 The code that runs on the pc is written in python. Run the app.py file to start the server, or alternatetively, run Remote Server.exe in dist folder. The server uses win32api, win32com and win32con libraries for controlling windows.
+
+Download (apk and exe): https://www.dropbox.com/sh/knp18e1yilcygto/AAB6MdAQE6x9ISZjTFiGnaTOa?dl=0
+
