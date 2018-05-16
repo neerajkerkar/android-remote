@@ -17,8 +17,8 @@ The code that runs on the pc is written in python. Run the app.py file to start 
 Download (apk and exe): https://www.dropbox.com/sh/knp18e1yilcygto/AAB6MdAQE6x9ISZjTFiGnaTOa?dl=0
 
 INSTRUCTIONS FOR USE:
-Run Server.exe on your PC. 
-Make sure blutooth is turned on in your PC.
-The app detects only paired bluetooth devices so make sure your smartphone is paired with your PC.
-Start Remote Controller app on your android device and choose your PC in the list of devices.
-Use the app.
+1. Run Server.exe on your PC. 
+2. Make sure blutooth is turned on in your PC.
+3. The app detects only paired bluetooth devices so make sure your smartphone is paired with your PC.
+4. Start Remote Controller app on your android device and choose your PC in the list of devices.
+5. Use the app.
